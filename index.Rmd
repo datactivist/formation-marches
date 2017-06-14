@@ -137,4 +137,51 @@ Dans ces conditions, difficile d'exercer une **véritable surveillance citoyenne
 ---
 class:inverse, middle,center
 # L'approche alternative d'Open Contracting 
+
+.footnote[FYI : Datactivist a effectué la [traduction en français du standard OCDS](http://standard.open-contracting.org/1.0/fr/).]
+---
+# Un standard qui couvre toutes les étapes de la passation de marché
+[![](img/etapes.png)](http://standard.open-contracting.org/1.0/fr/getting_started/contracting_process/)
+---
+# Une mise en oeuvre progressive du standard 
+.reduite2[[![](img/process.png)](http://standard.open-contracting.org/1.0/fr/implementation/levels/#how-to-publish-5-approach)]
+
+---
+# Les avantages de l'approche OCDS 
+- Un standard mondial et partagé 
+
+- Des données normalisées, des outils partagés 
+
+- Couvre toutes les étapes de la passation de marché, permet un suivi précis de la commande publique
+
+- Facilite l'accès aux documents du marché 
+
+- Permet de suivre les paiements et les transactions
+
+- Aide au suivi du marché et au cout de chaque lot
+
+- Possibilité de développer localement des extensions au standard  
+
+---
+class:inverse, middle, center
+# Quelques cas d'usage des données de marché public 
+---
+# Bretagne : l'observatoire régional de la commande publique
+[![](img/tableau.png)](https://breizh-sba.opendatasoft.com/page/tableaudebord/)
+---
+# Bretagne : l'observatoire régional de la commande publique
+[![](img/carte.png)](https://breizh-sba.opendatasoft.com/page/home/)
+---
+# Suisse : la cartographie de réseau pour détecter collusions 
+.reduite[[![](img/graphefr.png)](https://pegasusdata.com/2012/11/25/opendata-copinage-au-gouvernement-quand-lanalyse-de-reseau-vient-en-aide-au-journalisme-dinvestigation/)]
+---
+# Mexico : un outil simple de suivi de la passation des marchés
+[![](img/mexico.png)](http://www.contratosabiertos.cdmx.gob.mx/)
+
+---
+# Ukraine : Prozorro, un outil de lutte contre la fraude 
+[![](img/prozorro.png)](https://prozorro.gov.ua/en)
+---
+# Ukraine : Prozorro, un outil de Business Intelligence pour les citoyens
+[![](img/prozorroBI.png)](http://bi.prozorro.org/sense/app/e1a87316-d81e-4142-bd2b-5f2cae95b136/sheet/HEjZR/state/analysis)
 ---
