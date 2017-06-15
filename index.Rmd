@@ -48,11 +48,12 @@ $9,5 trillion de dollars par an
 320 milliards d’euros par an
 
 Estimation : 15% du PIB
+.footnote
 ]
 .pull-right[
 ![](http://www.open-contracting.org/wp-content/uploads/2016/05/moon-95.png)
 .footnote[
-[Source](http://www.open-contracting.org/why-open-contracting/)
+Sources : [Monde](http://www.open-contracting.org/why-open-contracting/) et [France](https://www.etalab.gouv.fr/la-transparence-de-la-commande-publique-se-transforme-au-service-de-lopen-data)
 ]
 ]
 
@@ -68,7 +69,7 @@ Selon un sondage Eurobaromètre de 2013, 30% des entreprises ayant participé à
 ---
 # Pourquoi ouvrir des données structurées sur la commande publique ?
 
-- un meilleur **rapport qualité-prix** de la commande publique grâce à une meilleure transparence
+- un meilleur **rapport qualité-prix** de la commande publique et une meilleure gestion de l'argent public
 
 - la **prévention** et la détection des cas de fraude et de corruption
 
@@ -185,3 +186,6 @@ class:inverse, middle, center
 # Ukraine : Prozorro, un outil de Business Intelligence pour les citoyens
 [![](img/prozorroBI.png)](http://bi.prozorro.org/sense/app/e1a87316-d81e-4142-bd2b-5f2cae95b136/sheet/HEjZR/state/analysis)
 ---
+class:inverse, center,middle
+# Merci ! 
+## Questions ? remarques ? 
