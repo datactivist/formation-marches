@@ -1,18 +1,29 @@
 ---
 title: "Comment la commande publique devient transparente grace à l'open data ?"
-subtitle: "Data Sandwich, Infolab, Poitiers"
 author: "Samuel Goëta, Datactivist"
-date: "Poitiers, le 15 juin 2017"
+date: "Angers, le 14 juin 2018"
 output:
-  xaringan::moon_reader:
-    css: [default, xaringan.css]
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
-      countIncrementalSlides: false
+      countIncrementalSlides: true
+params:
+  event: Angers Formation Marchés
+  slug: Formation Marchés
+---
+
+layout: true
+  
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'></center></span></div>")` 
+
+
 
 ---
+
 class: center, middle
 
 Retrouvez les matériaux sur https://github.com/datactivist/poitiers-marches/
@@ -24,7 +35,7 @@ Les contenus créés par Datactivist sont placés sous [licence Creative Commons
 <img src="./img/Logo_DATACTIVIST_TW.png" height="100px" />
 
 ---
-#Objectifs de la session
+##Objectifs de la session
 
 .pull-left[
 Objectifs :
@@ -36,19 +47,21 @@ Objectifs :
 .pull-right.reduite[![](img/patin.jpg)] 
 
 ---
-# La commande publique : un pan sensible et stratégique de l'économie
+## La commande publique : un pan sensible et stratégique de l'économie
 .pull-left[
-### Dans le monde
+.red[**Dans le monde**]
+
 $9,5 trillion de dollars par an
 
 ± 2 fois la distance terre-lune si on empilait des billets de 1$ 
 15% du PIB mondial
 
-### En France
+.red[**En France**]
+
 320 milliards d’euros par an
 
 Estimation : 15% du PIB
-.footnote
+
 ]
 .pull-right[
 ![](http://www.open-contracting.org/wp-content/uploads/2016/05/moon-95.png)
@@ -60,14 +73,16 @@ Sources : [Monde](http://www.open-contracting.org/why-open-contracting/) et [Fra
 ---
 ## La commande publique : un pan sensible et stratégique de l'économie
 
-### Un problème auquel l'Europe n'échappe pas
+.red[**Un problème auquel l'Europe n'échappe pas**]
+
 Selon un sondage Eurobaromètre de 2013, 30% des entreprises ayant participé à des marchés publics déclarent que la corruption les a empeché de gagner un contrat.
 
-### Un problème couteux
-20-25% du marché public marchés publics dans le monde concernerait la fraude (UN Office of Drugs and Crime)
+.red[**Un problème couteux**]
+
+20-25% du montant des marchés publics dans le monde sera affecté à la fraude (UN Office of Drugs and Crime)
 
 ---
-# Pourquoi ouvrir des données structurées sur la commande publique ?
+## Pourquoi ouvrir des données structurées sur la commande publique ?
 
 - un meilleur **rapport qualité-prix** de la commande publique et une meilleure gestion de l'argent public
 
@@ -86,21 +101,19 @@ class:inverse, middle, center
 # L'approche française : les données essentielles de marchés publics
 
 ---
-# Une exigence de redevabilité, une transparence rendue difficile
-.pull-left[
+## Une exigence de redevabilité, une transparence rendue difficile
+
 - **L’exigence de redevabilité des agents publics est à la base de notre démocratie** : 
 “La Société a le droit de demander compte à tout Agent public de son administration.” (article 15 de la DDHC de 1789)
 
 - **Article 133 du code des marchés publics**: publication de la liste des marchés conclus l’année précédente
 
 - Des données **pas normées et souvent publiées en PDF** : exploitation complexe, données difficilement accessibles, pas de vision d'ensemble
-]
-.pull-right[
-![](./img/marches.png)
-]
+
 ---
-#La nouvelle donne : les données essentielles de marchés
-.pull-left[- **Ordonnance du 23 juillet 2015** : impose « aux acheteurs publics de rendre public le choix de l’offre retenue et de rendre accessible sous un format ouvert et librement réutilisable les données essentielles du marché public »
+### La nouvelle donne : les données essentielles de marchés
+.pull-left[
+- .red[**Ordonnance du 23 juillet 2015**] : impose « aux acheteurs publics de rendre public le choix de l’offre retenue et de rendre accessible sous un format ouvert et librement réutilisable les données essentielles du marché public »
 
 - L’[**arrêté du 14 avril 2017**](https://www.legifrance.gouv.fr/eli/arrete/2017/4/14/ECFM1637256A/jo) précise la liste des données devant être publiées sur les profils d’acheteur ainsi que les modalités de leur publication à compter du 1er octobre 2018.]
 
@@ -108,22 +121,24 @@ class:inverse, middle, center
 ![](img/quand.png)
 .footnote[[Source](https://www.etalab.gouv.fr/la-transparence-de-la-commande-publique-se-transforme-au-service-de-lopen-data)]
 ]
+
 ---
-# Que contiennent les données essentielles ? 
+### Que contiennent les données essentielles ? 
 ![](img/quelles.png)
 
 ---
-# Une norme très précise pour uniformiser les données et favoriser leur croisement
+### Une norme très précise pour uniformiser les données et favoriser leur croisement
 .reduite2[[![](img/referentiel.png)](https://www.legifrance.gouv.fr/eli/arrete/2017/4/14/ECFM1637256A/jo)]
 ---
-# Quel calendrier de publication des données ? 
+### Quel calendrier de publication des données ? 
 ![](img/calendrier.png)
 ---
-# Où et comment ? 
+## Où et comment ? 
 
 ![](img/ou.png)
+
 ---
-# Les limites de cette approche
+### Les limites de cette approche
 L'obligation d'ouverture des données essentielles est **un progrès indéniable** pour la transparence mais comporte des limites à souligner : 
 - Un **standard complexe** pour beaucoup d'usagers
 
@@ -141,14 +156,14 @@ class:inverse, middle,center
 
 .footnote[FYI : Datactivist a effectué la [traduction en français du standard OCDS](http://standard.open-contracting.org/1.0/fr/).]
 ---
-# Un standard qui couvre toutes les étapes de la passation de marché
+### Un standard qui couvre toutes les étapes de la passation de marché
 [![](img/etapes.png)](http://standard.open-contracting.org/1.0/fr/getting_started/contracting_process/)
 ---
-# Une mise en oeuvre progressive du standard 
+### Une mise en oeuvre progressive du standard 
 .reduite2[[![](img/process.png)](http://standard.open-contracting.org/1.0/fr/implementation/levels/#how-to-publish-5-approach)]
 
 ---
-# Les avantages de l'approche OCDS 
+## Les avantages de l'approche OCDS 
 - Un standard mondial et partagé 
 
 - Des données normalisées, des outils partagés 
@@ -167,23 +182,23 @@ class:inverse, middle,center
 class:inverse, middle, center
 # Quelques cas d'usage des données de marché public 
 ---
-# Bretagne : l'observatoire régional de la commande publique
+### Bretagne : l'observatoire régional de la commande publique
 [![](img/tableau.png)](https://breizh-sba.opendatasoft.com/page/tableaudebord/)
 ---
-# Bretagne : l'observatoire régional de la commande publique
+### Bretagne : l'observatoire régional de la commande publique
 [![](img/carte.png)](https://breizh-sba.opendatasoft.com/page/home/)
 ---
-# Suisse : la cartographie de réseau pour détecter collusions 
+### Suisse : la cartographie de réseau pour détecter collusions 
 .reduite[[![](img/graphefr.png)](https://pegasusdata.com/2012/11/25/opendata-copinage-au-gouvernement-quand-lanalyse-de-reseau-vient-en-aide-au-journalisme-dinvestigation/)]
 ---
-# Mexico : un outil simple de suivi de la passation des marchés
+### Mexico : un outil simple de suivi de la passation des marchés
 [![](img/mexico.png)](http://www.contratosabiertos.cdmx.gob.mx/)
 
 ---
-# Ukraine : Prozorro, un outil de lutte contre la fraude 
+### Ukraine : Prozorro, un outil de lutte contre la fraude 
 [![](img/prozorro.png)](https://prozorro.gov.ua/en)
 ---
-# Ukraine : Prozorro, un outil de Business Intelligence pour les citoyens
+### Ukraine : Prozorro, un outil de Business Intelligence pour les citoyens
 [![](img/prozorroBI.png)](http://bi.prozorro.org/sense/app/e1a87316-d81e-4142-bd2b-5f2cae95b136/sheet/HEjZR/state/analysis)
 ---
 class:inverse, center,middle
