@@ -6,3 +6,5 @@ Elle vise à :
 - Découvrir le référentiel de données d’Etalab
 - Introduire l’approche alternative d’Open Contracting Partnership et de son standard de données OCDS
 - Connaitre les cas d’usage de l’ouverture des données des marchés publics
+
+Les contenus créés par Datactivist sont placés sous licence Creative Commons CC-BY-SA.
