@@ -1,7 +1,7 @@
 ---
 title: "Comment la commande publique devient transparente grace à l'open data ?"
 author: "Samuel Goëta, Datactivist"
-date: "Angers, le 14 juin 2018"
+date: "Angers, le 14 juin 2018 "
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -26,9 +26,9 @@ layout: true
 
 class: center, middle
 
-Retrouvez les matériaux sur https://github.com/datactivist/poitiers-marches/
+Retrouvez les matériaux sur https://github.com/datactivist/formation-marches/
 
-Ces slides en ligne : http://datactivi.st/poitiers-marches/
+Ces slides en ligne : http://datactivist.coop/formation-marches/
 
 Les contenus créés par Datactivist sont placés sous [licence Creative Commons CC-BY-SA](https://creativecommons.org/licenses/by-sa/3.0/deed.fr). 
 
